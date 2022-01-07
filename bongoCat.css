@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    user-select: none;
+}
+
+.gitHub {
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    color: black;
+}
+
+.fill {
+    fill: #fff;
+}
+
+.key {
+    display: inline-block !important;
+    min-width: 35px;
+    height: 35px;
+    padding: 4px 0 0 6px;
+    background: #333;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 15px;
+    border: 2px solid #252525;
+    box-shadow: inset -6px -4px 0 0 #1b1b1b
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    margin-top: -10px;
+}
+
+.bongos {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.bongos > div > span:nth-of-type(1) {
+    margin-right: 7px;
+}
+
+.cymbal {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.cowbel {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.tambourine {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.meow {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.key-wide {
+    min-width: 135px !important
+}
+
+.piano {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.piano > div > span {
+    margin-right: 7px;
+}
+
+.marimba {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.marimba > div > span {
+    margin-right: 7px;
+}
+
+.info {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.info > span {
+    margin: 0 7px
+}
+
+.info > span > a {
+    color: white;
+}
+
+hr {
+    position: relative;
+    display: block;
+    width: 200%;
+    height: 5px;
+    background: white;
+    margin: 140px 0 0 -50%;
+    border: none;
+    transform: rotate(13.5deg);
+    z-index: 10
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 450px
+}
+
+#container div {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat
+}
+
+.cat div {
+    background-position-y: 0;
+    background-position-x: 0;
+}
+
+.cat > #head {
+    background-image: url(/assets/cat.png);
+    z-index: 10
+}
+
+.cat > #mouth {
+    background-image: url(/assets/mouth_cat.png);
+    z-index: 20
+}
+
+.cat > #paw-left {
+    background-image: url(/assets/paw_left_cat.png);
+    z-index: 30;
+}
+
+.cat > #paw-right {
+    background-image: url(/assets/paw_right_cat.png);
+    z-index: 30
+}
+
+.cat div {
+    background-position-y: -450px
+}
+
+.instruments {
+    z-index: 20
+}
+
+.instruments > #bongo {
+    background-image: url(/assets/bongo.png)
+}
